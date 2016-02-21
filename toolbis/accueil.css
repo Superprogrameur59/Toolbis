@@ -1,0 +1,64 @@
+#header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+}
+
+ul {
+    padding-left: 100px;
+    padding-top: 7.5px;
+    list-style-type: none;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+}
+
+li {
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+    display: inline;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: #01DF74;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.nav-login {
+    color: #BDBDBD;
+}
+
+.nav-login:hover {
+    color: #01DF74;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+body {
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+#conteneur {
+    background-color: #BDBDBD;
+    width: 70%;
+    margin: 70px auto;
+    height: 1000px;
+}
+
+h1 {
+    font: 3em "Trebuchet MS", Arial, sans-serif;
+    color: #848484;
+    text-align: center;
+}
